@@ -2,7 +2,7 @@
 
 # Recursos
 
-**API de search da VTEX e, utilizando conceitos de processamento em fila, enviar um email usando o Send_Grid com a quantidade de produtos disponíveis na loja**
+**API de search da VTEX e, utilizando conceitos de processamento em fila com rabitMQ, enviar um email usando o Send_Grid com a quantidade de produtos disponíveis na loja**
 
 (Editar o .env)
 
