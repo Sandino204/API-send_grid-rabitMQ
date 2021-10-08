@@ -13,7 +13,7 @@ queue.consume("productsDefault", async(message) => {
 
     //Get the inventory from VTEX
     await axios({
-        url: process.env.DEFAULT_URL, 
+        url: `https://${process.env.DEFAULT_ACOUNT_NAME}.${process.env.DEFAULT_ENVIROMENT}/api/catalog_system/pub/products/search`, 
         method: "get", 
         headers: {
             Accept: 'application/json'

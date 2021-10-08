@@ -1,11 +1,11 @@
 {
+  "author": "Sandino204",
   "name": "codebyentrevista",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "worker": "nodemon worker.js",
-    "nodemon": "nodemon app.js"
+    "worker": "node worker.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.7",
